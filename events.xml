@@ -21,9 +21,9 @@
         </children>
     </event>
     <event name="AnimalBear">
-        <nominal>0</nominal>
-        <min>2</min>
-        <max>2</max>
+        <nominal>2</nominal>
+        <min>24</min>
+        <max>26</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -38,9 +38,9 @@
         </children>
     </event>
     <event name="AnimalCow">
-        <nominal>7</nominal>
+        <nominal>14</nominal>
         <min>2</min>
-        <max>3</max>
+        <max>14</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -60,9 +60,9 @@
         </children>
     </event>
     <event name="AnimalDeer">
-        <nominal>9</nominal>
-        <min>2</min>
-        <max>4</max>
+        <nominal>18</nominal>
+        <min>5</min>
+        <max>20</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -116,8 +116,8 @@
     </event>
     <event name="AnimalRoeDeer">
         <nominal>10</nominal>
-        <min>2</min>
-        <max>3</max>
+        <min>10</min>
+        <max>20</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -535,7 +535,7 @@
         <saferadius>0</saferadius>
         <distanceradius>0</distanceradius>
         <cleanupradius>50</cleanupradius>
-        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>fixed</position>
         <limit>custom</limit>
         <active>1</active>
@@ -574,9 +574,9 @@
         <children/>
     </event>
     <event name="StaticHeliCrash">
-        <nominal>3</nominal>
-        <min>0</min>
-        <max>0</max>
+        <nominal>20</nominal>
+        <min>10</min>
+        <max>50</max>
         <lifetime>2500</lifetime>
         <restock>0</restock>
         <saferadius>1000</saferadius>
