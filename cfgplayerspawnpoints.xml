@@ -81,7 +81,7 @@
     -->
     <hop>
         <generator_posbubbles>
-<pos x="9349.00" z="8716.00" />
+            <pos x="9349.00" z="8716.00" />
         </generator_posbubbles>
     </hop>
 
@@ -90,7 +90,7 @@
     -->
     <travel>
         <generator_posbubbles>
-<pos x="9349.00" z="8716.00" />
+            <pos x="9349.00" z="8716.00" />
         </generator_posbubbles>
     </travel>
 </playerspawnpoints>
